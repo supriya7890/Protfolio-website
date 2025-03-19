@@ -43,10 +43,20 @@
 
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:Supriyaaa.b45@gmail.com">Supriyaaa.b45@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/supriya-bhagat" target="_blank">linkedin.com/in/supriya-bhagat</a></p>
-    </section>
+        <h2>Contact Me</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
 
     <footer>
         <p>&copy; 2025 Supriya Bhagat | All Rights Reserved</p>
